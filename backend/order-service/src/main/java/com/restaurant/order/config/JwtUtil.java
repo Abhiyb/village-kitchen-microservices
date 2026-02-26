@@ -10,10 +10,10 @@ import java.util.Map;
 
 @Component
 public class JwtUtil {
-
+// jwt modified
     @Value("${jwt.secret}")
     private String secret;
-
+// jwtutil modified
     @Value("${jwt.expiration-ms}")
     private long expirationMs;
 
