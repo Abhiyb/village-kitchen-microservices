@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Component
 public class JwtUtil {
-
+// jwt modified
     @Value("${jwt.secret}")
     private String secret;
 
